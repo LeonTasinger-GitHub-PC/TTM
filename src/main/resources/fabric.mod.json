@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ttm",
+	"version": "${version}",
+	"name": "TTM",
+	"description": "Ta Tech Mod my first fabric mod. Happy exploring.",
+	"authors": [
+		"Ta"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ttm/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ta.ttm.TTM"
+		],
+		"fabric-datagen": [
+			"net.ta.ttm.TTMDataGenerator"
+		],
+        "client": [
+          "net.ta.ttm.TTMClient"
+        ]
+	},
+	"mixins": [
+		"ttm.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
