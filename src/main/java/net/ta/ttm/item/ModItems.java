@@ -10,6 +10,7 @@ import net.ta.ttm.TTM;
 
 public class ModItems {
     public static final Item OBSIDIANITE = registerItem("obsidianite", new Item(new Item.Settings()));
+    public static final Item RAW_OBSIDIANITE = registerItem("raw_obsidianite", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TTM.MOD_ID, name), item);
@@ -19,6 +20,7 @@ public class ModItems {
         TTM.LOGGER.info("Registering Mod Items for" + TTM.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(RAW_OBSIDIANITE);
             entries.add(OBSIDIANITE);
         });
     }
