@@ -1,4 +1,7 @@
 {
   "item.ttm.obsidianite": "Hardened Obsidian",
-  "item.ttm.raw_obsidianite": "Volcanic Metal Glass"
+  "item.ttm.raw_obsidianite": "Volcanic Metal Glass",
+
+  "block.ttm.obsidianite_block": "Hardened Obsidian Block",
+  "block.ttm.raw_obsidianite_block": "Volcanic Metal Glass Block"
 }
