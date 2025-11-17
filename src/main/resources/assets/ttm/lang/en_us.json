@@ -3,5 +3,8 @@
   "item.ttm.raw_obsidianite": "Volcanic Metal Glass",
 
   "block.ttm.obsidianite_block": "Hardened Obsidian Block",
-  "block.ttm.raw_obsidianite_block": "Volcanic Metal Glass Block"
+  "block.ttm.raw_obsidianite_block": "Volcanic Metal Glass Block",
+
+  "itemgroup.ttm.ttm_items": "TTM Items",
+  "itemgroup.ttm.ttm_blocks": "TTM Blocks"
 }
