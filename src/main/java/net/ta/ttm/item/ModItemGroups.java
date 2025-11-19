@@ -18,6 +18,7 @@ public class ModItemGroups {
                             .entries((displayContext, entries) -> {
                                 entries.add(ModItems.OBSIDIANITE);
                                 entries.add(ModItems.RAW_OBSIDIANITE);
+                                entries.add(ModItems.WRENCH);
                             }).build());
 
     public static final ItemGroup TTM_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

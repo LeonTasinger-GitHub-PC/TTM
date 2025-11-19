@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "ttm:raw_obsidianite"
+  },
+  "result": {
+    "id": "ttm:obsidianite"
+  }
+}
