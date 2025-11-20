@@ -43,9 +43,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         TTM.LOGGER.info("Registering Mod Blocks for " + TTM.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.OBSIDIANITE_BLOCK);
-            entries.add(ModBlocks.RAW_OBSIDIANITE_BLOCK);
-        });
     }
 }

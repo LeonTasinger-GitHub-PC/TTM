@@ -13,6 +13,7 @@ public class ModItems {
     public static final Item OBSIDIANITE = registerItem("obsidianite", new Item(new Item.Settings()));
     public static final Item RAW_OBSIDIANITE = registerItem("raw_obsidianite", new Item(new Item.Settings()));
     public static final Item WRENCH = registerItem("wrench", new WrenchItem(new Item.Settings()));
+    public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TTM.MOD_ID, name), item);
@@ -20,10 +21,5 @@ public class ModItems {
 
     public static void registerModItems(){
         TTM.LOGGER.info("Registering Mod Items for" + TTM.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(RAW_OBSIDIANITE);
-            entries.add(OBSIDIANITE);
-        });
     }
 }

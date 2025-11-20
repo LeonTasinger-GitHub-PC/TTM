@@ -19,6 +19,7 @@ public class ModItemGroups {
                                 entries.add(ModItems.OBSIDIANITE);
                                 entries.add(ModItems.RAW_OBSIDIANITE);
                                 entries.add(ModItems.WRENCH);
+                                entries.add(ModItems.CAULIFLOWER);
                             }).build());
 
     public static final ItemGroup TTM_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

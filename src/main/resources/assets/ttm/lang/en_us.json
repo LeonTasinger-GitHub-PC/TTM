@@ -2,9 +2,11 @@
   "item.ttm.obsidianite": "Hardened Obsidian",
   "item.ttm.raw_obsidianite": "Volcanic Metal Glass",
   "item.ttm.wrench": "Wrench",
+  "item.ttm.cauliflower": "Cauliflower",
 
   "block.ttm.obsidianite_block": "Hardened Obsidian Block",
   "block.ttm.raw_obsidianite_block": "Volcanic Metal Glass Block",
+  "block.ttm.magic_block": "Magic Block",
 
   "itemgroup.ttm.ttm_items": "TTM Items",
   "itemgroup.ttm.ttm_blocks": "TTM Blocks"
