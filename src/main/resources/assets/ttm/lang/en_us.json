@@ -9,5 +9,10 @@
   "block.ttm.magic_block": "Magic Block",
 
   "itemgroup.ttm.ttm_items": "TTM Items",
-  "itemgroup.ttm.ttm_blocks": "TTM Blocks"
+  "itemgroup.ttm.ttm_blocks": "TTM Blocks",
+
+  "tooltip.ttm.magic_block.tooltip": "I'm out of §9IDEA§9",
+  "tooltip.ttm.wrench.shift": "Use to collect some block",
+  "tooltip.ttm.wrench.no_shift": "Press shift for too much effort",
+  "tooltip.ttm.cauliflower.tooltip": "Good for your health"
 }
