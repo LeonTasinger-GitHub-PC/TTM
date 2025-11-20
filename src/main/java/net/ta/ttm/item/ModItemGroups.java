@@ -28,6 +28,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.OBSIDIANITE_BLOCK);
                         entries.add(ModBlocks.RAW_OBSIDIANITE_BLOCK);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

@@ -11,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.ta.ttm.TTM;
+import net.ta.ttm.block.custom.MagicBlock;
 
 public class ModBlocks {
     public static final Block OBSIDIANITE_BLOCK = registerBlock("obsidianite_block",
@@ -26,6 +27,9 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)
             ));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItems(name, block);
