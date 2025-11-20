@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
+    "A": {
       "item": "minecraft:iron_ingot"
     },
-    "B": {
+    "O": {
       "item": "minecraft:obsidian"
     }
   },
   "pattern": [
-    "###",
-    "#B#",
-    "###"
+    "AAA",
+    "AOA",
+    "AAA"
   ],
   "result": {
     "count": 9,

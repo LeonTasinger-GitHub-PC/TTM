@@ -1,0 +1,14 @@
+// 1.21	2025-11-20T17:46:21.2097852	TTM/Model Definitions
+f004559c15560ad8654145a1ed47cd8c83c9dba0 assets\ttm\models\item\raw_obsidianite.json
+8fa50132f565c580e81540e64882e44dbcb7a47b assets\ttm\models\block\raw_obsidianite_block.json
+beee4f13f41311cce163751218d7b7a031aa2054 assets\ttm\models\item\raw_obsidianite_block.json
+f36fff38c1619beec6eb0d701629d4f055a5327a assets\ttm\blockstates\magic_block.json
+09cc8fe2a6ef9cc67a3614f07629f88b5c176ecc assets\ttm\models\item\magic_block.json
+cf5bd9193e4309af6767ebf34754ed419bcdf746 assets\ttm\models\item\obsidianite.json
+97aa5dc25fb452bd16b49a6ab0ebc8df7b564f2f assets\ttm\models\block\obsidianite_block.json
+f5a1b99cfd31743ae5862b04bcd1bf0c425da106 assets\ttm\models\item\wrench.json
+9c59365ac60f281c06e96868d98caacaa44b80a7 assets\ttm\blockstates\obsidianite_block.json
+549b7f8ae3529b925457b376447804daa904b05e assets\ttm\blockstates\raw_obsidianite_block.json
+7620bb45bff7fad9bab8ee507f366100c92a140d assets\ttm\models\block\magic_block.json
+b158316bf236a5fad1ca0e53f5155fce1f5532fa assets\ttm\models\item\obsidianite_block.json
+c124d05e0b01bcd1e864ecf8ec25bdecfd36b96a assets\ttm\models\item\cauliflower.json

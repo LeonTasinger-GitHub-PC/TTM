@@ -2,6 +2,8 @@
   "type": "minecraft:smelting",
   "category": "misc",
   "cookingtime": 200,
+  "experience": 0.25,
+  "group": "obsidianite",
   "ingredient": {
     "item": "ttm:raw_obsidianite"
   },

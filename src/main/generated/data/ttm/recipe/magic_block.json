@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "ttm:obsidianite"
-    },
     "A": {
       "item": "minecraft:ancient_debris"
+    },
+    "O": {
+      "item": "ttm:obsidianite"
     }
   },
   "pattern": [
-    "###",
-    "#A#",
-    "###"
+    "OOO",
+    "OAO",
+    "OOO"
   ],
   "result": {
     "count": 1,

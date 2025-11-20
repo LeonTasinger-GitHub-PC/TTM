@@ -1,0 +1,4 @@
+// 1.21	2025-11-20T17:46:21.2147725	TTM/Tags for minecraft:block
+e1ac53c7ba501b0b52e2c2ffa20777f8e99688d6 data\minecraft\tags\block\needs_iron_tool.json
+6f1b2bdc1d4413b0792eba9fdf7a2d8602bbb260 data\minecraft\tags\block\needs_diamond_tool.json
+9fba4308e7cd99df479719cd805505c371c4958e data\minecraft\tags\block\mineable\pickaxe.json

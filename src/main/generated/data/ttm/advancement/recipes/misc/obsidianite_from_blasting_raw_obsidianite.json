@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_obsidianite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ttm:raw_obsidianite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:obsidianite_from_blasting_raw_obsidianite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_obsidianite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:obsidianite_from_blasting_raw_obsidianite"
+    ]
+  }
+}

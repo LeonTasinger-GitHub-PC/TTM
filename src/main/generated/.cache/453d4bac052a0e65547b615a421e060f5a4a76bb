@@ -1,0 +1,4 @@
+// 1.21	2025-11-20T17:46:21.204799	TTM/Block Loot Tables
+79674e6941765498a2511960402994c513328848 data\ttm\loot_table\blocks\magic_block.json
+8e4563426decbc2f53db112a64c9718c493f68ad data\ttm\loot_table\blocks\obsidianite_block.json
+60da27bcc90a57822708465fc3250fcf7e99635f data\ttm\loot_table\blocks\raw_obsidianite_block.json
