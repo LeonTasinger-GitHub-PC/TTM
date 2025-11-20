@@ -17,6 +17,7 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.ta.ttm.item.ModItems;
+import net.ta.ttm.util.ModTags;
 
 import java.util.List;
 
@@ -38,12 +39,16 @@ public class MagicBlock extends Block {
                 itemEntity.setStack(new ItemStack(ModItems.WRENCH, itemEntity.getStack().getCount()));
             }
 
-            if(itemEntity.getStack().getItem() == Items.IRON_BLOCK) {
+            if(isValidItem(itemEntity.getStack())) {
                 itemEntity.setStack(new ItemStack(Items.ANCIENT_DEBRIS, itemEntity.getStack().getCount()));
             }
         }
 
         super.onSteppedOn(world, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack stack) {
+        return stack.isIn(ModTags.Items.DECAYABLE_METAL);
     }
 
     @Override

@@ -23,8 +23,8 @@ import java.util.Map;
 public class WrenchItem extends Item {
     private static final Map<Block, Block> WRENCH_MAP =
             Map.of(
-                ModBlocks.OBSIDIANITE_BLOCK, Blocks.AIR,
-                ModBlocks.MAGIC_BLOCK, Blocks.AIR
+                    ModBlocks.OBSIDIANITE_BLOCK, Blocks.AIR,
+                    ModBlocks.MAGIC_BLOCK, Blocks.AIR
             );
 
     public WrenchItem(Settings settings) {
