@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "ttm:block/magic_block"
+      "model": "ttm:block/quartz_ore"
     }
   }
 }

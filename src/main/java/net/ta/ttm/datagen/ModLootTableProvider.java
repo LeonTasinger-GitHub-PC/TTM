@@ -2,6 +2,7 @@ package net.ta.ttm.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.ta.ttm.block.ModBlocks;
 
@@ -14,8 +15,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.OBSIDIANITE_BLOCK);
-        addDrop(ModBlocks.RAW_OBSIDIANITE_BLOCK);
-        addDrop(ModBlocks.MAGIC_BLOCK);
+        addDrop(ModBlocks.QUARTZ_ORE, oreDrops(ModBlocks.QUARTZ_ORE, Items.QUARTZ));
+        addDrop(ModBlocks.SILICON_BLOCK);
     }
 }

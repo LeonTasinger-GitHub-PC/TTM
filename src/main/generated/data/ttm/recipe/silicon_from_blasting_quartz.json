@@ -1,13 +1,13 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 200,
+  "cookingtime": 400,
   "experience": 0.25,
-  "group": "obsidianite",
+  "group": "silicon",
   "ingredient": {
-    "item": "ttm:raw_obsidianite"
+    "item": "minecraft:quartz"
   },
   "result": {
-    "id": "ttm:obsidianite"
+    "id": "ttm:silicon"
   }
 }

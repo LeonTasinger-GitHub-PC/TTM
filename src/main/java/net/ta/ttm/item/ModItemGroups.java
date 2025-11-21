@@ -13,23 +13,20 @@ import net.ta.ttm.block.ModBlocks;
 public class ModItemGroups {
     public static final ItemGroup TTM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TTM.MOD_ID, "ttm_items"), FabricItemGroup.builder()
-                            .icon(() -> new ItemStack(ModItems.OBSIDIANITE))
+                            .icon(() -> new ItemStack(ModItems.SILICON))
                             .displayName(Text.translatable("itemgroup.ttm.ttm_items"))
                             .entries((displayContext, entries) -> {
-                                entries.add(ModItems.OBSIDIANITE);
-                                entries.add(ModItems.RAW_OBSIDIANITE);
-                                entries.add(ModItems.WRENCH);
+                                entries.add(ModItems.SILICON);
                                 entries.add(ModItems.CAULIFLOWER);
                             }).build());
 
     public static final ItemGroup TTM_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TTM.MOD_ID, "ttm_blocks"), FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(ModBlocks.OBSIDIANITE_BLOCK))
+                    .icon(() -> new ItemStack(ModBlocks.QUARTZ_ORE))
                     .displayName(Text.translatable("itemgroup.ttm.ttm_blocks"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.OBSIDIANITE_BLOCK);
-                        entries.add(ModBlocks.RAW_OBSIDIANITE_BLOCK);
-                        entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModBlocks.QUARTZ_ORE);
+                        entries.add(ModBlocks.SILICON_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

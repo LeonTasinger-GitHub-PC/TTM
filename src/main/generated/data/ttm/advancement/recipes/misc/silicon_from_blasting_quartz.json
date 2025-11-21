@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_obsidianite": {
+    "has_quartz": {
       "conditions": {
         "items": [
           {
-            "items": "ttm:obsidianite"
+            "items": "minecraft:quartz"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "ttm:magic_block"
+        "recipe": "minecraft:silicon_from_blasting_quartz"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_obsidianite"
+      "has_quartz"
     ]
   ],
   "rewards": {
     "recipes": [
-      "ttm:magic_block"
+      "minecraft:silicon_from_blasting_quartz"
     ]
   }
 }

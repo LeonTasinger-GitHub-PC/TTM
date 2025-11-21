@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "ttm:item/wrench"
+    "layer0": "ttm:item/silicon"
   }
 }

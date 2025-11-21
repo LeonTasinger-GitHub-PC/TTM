@@ -1,7 +1,6 @@
 {
   "values": [
-    "ttm:obsidianite_block",
-    "ttm:raw_obsidianite_block",
-    "ttm:magic_block"
+    "ttm:quartz_ore",
+    "ttm:silicon_block"
   ]
 }

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_obsidianite": {
+    "has_quartz_ore": {
       "conditions": {
         "items": [
           {
-            "items": "ttm:raw_obsidianite"
+            "items": "ttm:quartz_ore"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:obsidianite_from_smelting_raw_obsidianite"
+        "recipe": "minecraft:silicon_from_blasting_quartz_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_obsidianite"
+      "has_quartz_ore"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:obsidianite_from_smelting_raw_obsidianite"
+      "minecraft:silicon_from_blasting_quartz_ore"
     ]
   }
 }

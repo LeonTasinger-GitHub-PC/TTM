@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "ttm:raw_obsidianite_block"
+      "item": "ttm:silicon_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "ttm:raw_obsidianite"
+    "id": "ttm:silicon"
   }
 }

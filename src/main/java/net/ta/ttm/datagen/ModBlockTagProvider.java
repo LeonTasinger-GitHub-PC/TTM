@@ -16,15 +16,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.OBSIDIANITE_BLOCK)
-                .add(ModBlocks.RAW_OBSIDIANITE_BLOCK)
-                .add(ModBlocks.MAGIC_BLOCK);
-
-        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.OBSIDIANITE_BLOCK)
-                .add(ModBlocks.RAW_OBSIDIANITE_BLOCK);
+                .add(ModBlocks.QUARTZ_ORE)
+                .add(ModBlocks.SILICON_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.MAGIC_BLOCK);
+                .add(ModBlocks.QUARTZ_ORE)
+                .add(ModBlocks.SILICON_BLOCK);
     }
 }

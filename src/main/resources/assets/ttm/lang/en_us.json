@@ -1,17 +1,13 @@
 {
-  "item.ttm.obsidianite": "Hardened Obsidian",
-  "item.ttm.raw_obsidianite": "Volcanic Metal Glass",
-  "item.ttm.wrench": "Wrench",
+  "item.ttm.silicon": "Silicon",
   "item.ttm.cauliflower": "Cauliflower",
 
-  "block.ttm.obsidianite_block": "Hardened Obsidian Block",
-  "block.ttm.raw_obsidianite_block": "Volcanic Metal Glass Block",
-  "block.ttm.magic_block": "Magic Block",
+  "block.ttm.quartz_ore": "Quartz Ore",
+  "block.ttm.silicon_block": "Silicon Block",
 
   "itemgroup.ttm.ttm_items": "TTM Items",
   "itemgroup.ttm.ttm_blocks": "TTM Blocks",
 
-  "tooltip.ttm.magic_block.tooltip": "I'm out of §9IDEA§9",
   "tooltip.ttm.wrench.shift": "Use to collect some block",
   "tooltip.ttm.wrench.no_shift": "Press shift for too much effort",
   "tooltip.ttm.cauliflower.tooltip": "Good for your health"
