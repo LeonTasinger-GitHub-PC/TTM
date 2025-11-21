@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_quartz_ore": {
+    "has_silicon_block": {
       "conditions": {
         "items": [
           {
-            "items": "ttm:quartz_ore"
+            "items": "ttm:silicon_block"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:silicon_from_blasting_quartz_ore"
+        "recipe": "minecraft:crude_silicon"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_quartz_ore"
+      "has_silicon_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:silicon_from_blasting_quartz_ore"
+      "minecraft:crude_silicon"
     ]
   }
 }

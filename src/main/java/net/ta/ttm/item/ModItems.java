@@ -19,7 +19,7 @@ public class ModItems {
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
-    public static final Item SILICON = registerItem("silicon", new Item(new Item.Settings()));
+    public static final Item CRUDE_SILICON = registerItem("crude_silicon", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TTM.MOD_ID, name), item);

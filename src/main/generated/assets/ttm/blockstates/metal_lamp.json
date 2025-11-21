@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "ttm:block/metal_lamp"
+    },
+    "clicked=true": {
+      "model": "ttm:block/metal_lamp_on"
+    }
+  }
+}

@@ -17,5 +17,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.QUARTZ_ORE, oreDrops(ModBlocks.QUARTZ_ORE, Items.QUARTZ));
         addDrop(ModBlocks.SILICON_BLOCK);
+        addDrop(ModBlocks.METAL_LAMP);
     }
 }

@@ -1,9 +1,13 @@
-// 1.21	2025-11-21T13:02:36.5653023	TTM/Model Definitions
+// 1.21	2025-11-21T21:24:46.1085495	TTM/Model Definitions
+9807910faa3b4fa48bb7a7cd97115f1d99d14ee9 assets\ttm\blockstates\metal_lamp.json
 c4368bfb89d9ae0fc797f3db7a4eea600c177111 assets\ttm\blockstates\quartz_ore.json
-7a6a335948af9c1e6f83e085b67275c1c90632c6 assets\ttm\models\item\quartz_ore.json
-d93f5cf3fa69814e02c0d97693913afe162430e8 assets\ttm\models\item\silicon.json
-4494397f639761e59e9de5a127a316dcaac955b5 assets\ttm\blockstates\silicon_block.json
 82b815a57d90cc1e3399b43808526759f9d54227 assets\ttm\models\item\silicon_block.json
-15e4237b52331709b9300ddfb445dd1af5e19213 assets\ttm\models\block\quartz_ore.json
+3681b63135a823a3ac241e6d0f3797b59908fbef assets\ttm\models\block\metal_lamp_on.json
+a285cb7d3561ca090a2b67e5ec0a16154eecd4ae assets\ttm\models\item\crude_silicon.json
+a0f44e457187cb9b401178f28ebb8bbd95e9aa9e assets\ttm\models\item\metal_lamp.json
+7a6a335948af9c1e6f83e085b67275c1c90632c6 assets\ttm\models\item\quartz_ore.json
+4494397f639761e59e9de5a127a316dcaac955b5 assets\ttm\blockstates\silicon_block.json
+82f964d5db0b1df79845f2c5962c251cb8ff5ff3 assets\ttm\models\block\metal_lamp.json
 36ddd821f10fd8790b54330504c1a1a1f373cd8e assets\ttm\models\block\silicon_block.json
+15e4237b52331709b9300ddfb445dd1af5e19213 assets\ttm\models\block\quartz_ore.json
 c124d05e0b01bcd1e864ecf8ec25bdecfd36b96a assets\ttm\models\item\cauliflower.json

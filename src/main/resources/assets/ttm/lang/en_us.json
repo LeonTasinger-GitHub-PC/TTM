@@ -1,9 +1,10 @@
 {
-  "item.ttm.silicon": "Silicon",
+  "item.ttm.crude_silicon": "Crude Silicon",
   "item.ttm.cauliflower": "Cauliflower",
 
   "block.ttm.quartz_ore": "Quartz Ore",
   "block.ttm.silicon_block": "Silicon Block",
+  "block.ttm.metal_lamp": "Metal Lamp",
 
   "itemgroup.ttm.ttm_items": "TTM Items",
   "itemgroup.ttm.ttm_blocks": "TTM Blocks",

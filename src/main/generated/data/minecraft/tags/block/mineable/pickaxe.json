@@ -1,6 +1,7 @@
 {
   "values": [
     "ttm:quartz_ore",
-    "ttm:silicon_block"
+    "ttm:silicon_block",
+    "ttm:metal_lamp"
   ]
 }

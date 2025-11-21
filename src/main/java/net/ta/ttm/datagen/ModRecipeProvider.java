@@ -24,9 +24,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 Items.NETHER_QUARTZ_ORE, ModBlocks.QUARTZ_ORE);
 
 
-        offerBlasting(recipeExporter, SILICON_SMELTABLES, RecipeCategory.MISC, ModItems.SILICON, 0.25f, 400, "silicon");
+        offerBlasting(recipeExporter, SILICON_SMELTABLES, RecipeCategory.MISC, ModItems.CRUDE_SILICON, 0.25f, 400, "silicon");
 
-        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.SILICON, RecipeCategory.MISC, ModBlocks.SILICON_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.CRUDE_SILICON, RecipeCategory.MISC, ModBlocks.SILICON_BLOCK);
 
 //        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_OBSIDIANITE, 9)
 //                .pattern("AAA")

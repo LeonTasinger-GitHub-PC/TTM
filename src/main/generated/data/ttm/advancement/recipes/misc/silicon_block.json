@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_silicon": {
+    "has_crude_silicon": {
       "conditions": {
         "items": [
           {
-            "items": "ttm:silicon"
+            "items": "ttm:crude_silicon"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_silicon"
+      "has_crude_silicon"
     ]
   ],
   "rewards": {

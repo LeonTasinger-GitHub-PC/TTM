@@ -5,9 +5,9 @@
   "experience": 0.25,
   "group": "silicon",
   "ingredient": {
-    "item": "minecraft:nether_quartz_ore"
+    "item": "ttm:quartz_ore"
   },
   "result": {
-    "id": "ttm:silicon"
+    "id": "ttm:crude_silicon"
   }
 }

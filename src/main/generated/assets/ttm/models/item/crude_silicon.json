@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "ttm:item/silicon"
+    "layer0": "ttm:item/crude_silicon"
   }
 }

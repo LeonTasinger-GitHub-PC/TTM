@@ -9,6 +9,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.ta.ttm.TTM;
+import net.ta.ttm.block.custom.MetalLampBlock;
 
 public class ModBlocks {
     public static final Block QUARTZ_ORE = registerBlock("quartz_ore",
@@ -25,6 +26,12 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)
             ));
+
+    public static final Block METAL_LAMP = registerBlock("metal_lamp",
+            new MetalLampBlock(AbstractBlock.Settings.create()
+                    .strength(2f)
+                    .requiresTool()
+                    .luminance(state -> state.get(MetalLampBlock.CLICKED) ? 15 : 0)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItems(name, block);
