@@ -1,9 +1,9 @@
-// 1.21	2025-11-22T20:40:46.0429747	TTM/Block Loot Tables
-a4b5aaed79481d66ca7031cf00c58246bff83806 data\ttm\loot_table\blocks\silicon_block.json
+// 1.21	2025-11-22T21:04:26.1326116	TTM/Block Loot Tables
 95030d5b626199373d4c099bde949ddde2df3eec data\ttm\loot_table\blocks\bauxite_ore.json
+a4b5aaed79481d66ca7031cf00c58246bff83806 data\ttm\loot_table\blocks\silicon_block.json
 23a706f70916815f2ef14ef20024c97845fcce6c data\ttm\loot_table\blocks\steel_block.json
-2e66436f04872f82d987ae06e6fc8540d75348c2 data\ttm\loot_table\blocks\metal_lamp.json
 e3a3a1a37af11825d077ee98ed6934b18aed1b7d data\ttm\loot_table\blocks\graphite_block.json
+2e66436f04872f82d987ae06e6fc8540d75348c2 data\ttm\loot_table\blocks\metal_lamp.json
 7266cea7445656026bb24e4f256eb182519e368d data\ttm\loot_table\blocks\quartz_ore.json
 13c6fd036a826dfc7c9a7cf3d731a21363703484 data\ttm\loot_table\blocks\silumin_block.json
 de451d4b7cb93d2b08d4ae1919d336039ace75c2 data\ttm\loot_table\blocks\aluminium_block.json

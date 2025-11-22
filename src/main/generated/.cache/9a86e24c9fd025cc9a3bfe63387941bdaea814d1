@@ -1,4 +1,4 @@
-// 1.21	2025-11-22T20:40:46.0479613	TTM/Model Definitions
+// 1.21	2025-11-22T21:04:26.1375969	TTM/Model Definitions
 92c22e5c89bf7993741c3837a546247b0f64f91c assets\ttm\models\item\steel_block.json
 914d3c40ea654a01d40b79861d7ed7c3b54aeef9 assets\ttm\models\item\aluminium_hoe.json
 842522faca7bf955e1d7d2fd00b59a8d3e1e093d assets\ttm\models\block\steel_block.json
@@ -6,8 +6,8 @@ ea14221401f6e725da66a78b62a350d10a7699df assets\ttm\models\item\silumin_pickaxe.
 82b815a57d90cc1e3399b43808526759f9d54227 assets\ttm\models\item\silicon_block.json
 5b92e85d24535bda7cba9ebaa8c42e91a6506692 assets\ttm\models\item\silumin.json
 ac8b2515e584eefe0fb683722a704ecc65fb90e6 assets\ttm\models\item\steel_axe.json
-7a6a335948af9c1e6f83e085b67275c1c90632c6 assets\ttm\models\item\quartz_ore.json
 3410d672ba6c507e3aa13344c4a8bc7cee139ac7 assets\ttm\blockstates\bauxite_ore.json
+7a6a335948af9c1e6f83e085b67275c1c90632c6 assets\ttm\models\item\quartz_ore.json
 36ddd821f10fd8790b54330504c1a1a1f373cd8e assets\ttm\models\block\silicon_block.json
 5aff2606cd73fd49193b632eaca2e34f1c7511c6 assets\ttm\models\item\silumin_sword.json
 3f85000191e48e0604b1cc5d06839a816df6aa74 assets\ttm\blockstates\steel_block.json

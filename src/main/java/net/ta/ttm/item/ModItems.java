@@ -28,35 +28,35 @@ public class ModItems {
 
     public static final Item ALUMINIUM_SWORD = registerItem("aluminium_sword",
             new SwordItem(ModToolMaterials.ALUMINIUM, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM, 3, -2.4f))));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM, 3, -2f))));
     public static final Item ALUMINIUM_PICKAXE = registerItem("aluminium_pickaxe",
             new PickaxeItem(ModToolMaterials.ALUMINIUM, new Item.Settings()
-                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM, 1, -2.8f))));
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM, 1, -2.2f))));
     public static final Item ALUMINIUM_SHOVEL = registerItem("aluminium_shovel",
             new ShovelItem(ModToolMaterials.ALUMINIUM, new Item.Settings()
-                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM, 1.5f, -3.0f))));
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM, 1.5f, -2.5f))));
     public static final Item ALUMINIUM_AXE = registerItem("aluminium_axe",
             new AxeItem(ModToolMaterials.ALUMINIUM, new Item.Settings()
-                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM, 6, -3.2f))));
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM, 6, -2.8f))));
     public static final Item ALUMINIUM_HOE = registerItem("aluminium_hoe",
             new HoeItem(ModToolMaterials.ALUMINIUM, new Item.Settings()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM, 0, -3f))));
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM, 0, -2.5f))));
 
     public static final Item SILUMIN_SWORD = registerItem("silumin_sword",
             new SwordItem(ModToolMaterials.SILUMIN, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SILUMIN, 3, -2.4f))));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SILUMIN, 3, -2f))));
     public static final Item SILUMIN_PICKAXE = registerItem("silumin_pickaxe",
             new PickaxeItem(ModToolMaterials.SILUMIN, new Item.Settings()
-                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.SILUMIN, 1, -2.8f))));
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.SILUMIN, 1, -2.2f))));
     public static final Item SILUMIN_SHOVEL = registerItem("silumin_shovel",
             new ShovelItem(ModToolMaterials.SILUMIN, new Item.Settings()
-                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.SILUMIN, 1.5f, -3.0f))));
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.SILUMIN, 1.5f, -2.5f))));
     public static final Item SILUMIN_AXE = registerItem("silumin_axe",
             new AxeItem(ModToolMaterials.SILUMIN, new Item.Settings()
-                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.SILUMIN, 6, -3.2f))));
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.SILUMIN, 6, -2.8f))));
     public static final Item SILUMIN_HOE = registerItem("silumin_hoe",
             new HoeItem(ModToolMaterials.SILUMIN, new Item.Settings()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.SILUMIN, 0, -3f))));
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.SILUMIN, 0, -2.5f))));
 
     public static final Item STEEL_SWORD = registerItem("steel_sword",
             new SwordItem(ModToolMaterials.STEEL, new Item.Settings()
