@@ -15,23 +15,59 @@ public class ModBlocks {
     public static final Block QUARTZ_ORE = registerBlock("quartz_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create()
-                            .strength(4f)
+                            .strength(8f, 8f)
                             .requiresTool()
                             .sounds(BlockSoundGroup.STONE)
             ));
 
     public static final Block SILICON_BLOCK = registerBlock("silicon_block",
             new Block(AbstractBlock.Settings.create()
-                    .strength(7f)
+                    .strength(7f, 10f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)
             ));
 
     public static final Block METAL_LAMP = registerBlock("metal_lamp",
             new MetalLampBlock(AbstractBlock.Settings.create()
-                    .strength(2f)
+                    .strength(2f, 2f)
                     .requiresTool()
                     .luminance(state -> state.get(MetalLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final Block BAUXITE_ORE = registerBlock("bauxite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create()
+                            .strength(3.5f, 4f)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block ALUMINIUM_BLOCK = registerBlock("aluminium_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f, 5f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+
+    public static final Block SILUMIN_BLOCK = registerBlock("silumin_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(7f, 10f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+
+    public static final Block GRAPHITE_BLOCK = registerBlock("graphite_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(2.5f, 3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block STEEL_BLOCK = registerBlock("steel_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(7f, 10f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItems(name, block);

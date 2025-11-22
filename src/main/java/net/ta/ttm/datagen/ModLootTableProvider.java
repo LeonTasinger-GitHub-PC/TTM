@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.ta.ttm.block.ModBlocks;
+import net.ta.ttm.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -18,5 +19,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.QUARTZ_ORE, oreDrops(ModBlocks.QUARTZ_ORE, Items.QUARTZ));
         addDrop(ModBlocks.SILICON_BLOCK);
         addDrop(ModBlocks.METAL_LAMP);
+        addDrop(ModBlocks.BAUXITE_ORE, oreDrops(ModBlocks.BAUXITE_ORE, ModItems.BAUXITE));
+        addDrop(ModBlocks.ALUMINIUM_BLOCK);
+        addDrop(ModBlocks.SILUMIN_BLOCK);
+        addDrop(ModBlocks.STEEL_BLOCK);
+        addDrop(ModBlocks.GRAPHITE_BLOCK);
     }
 }

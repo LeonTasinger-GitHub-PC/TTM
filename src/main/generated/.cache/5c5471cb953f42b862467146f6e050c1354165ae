@@ -1,11 +1,21 @@
-// 1.21	2025-11-21T21:24:46.1175381	TTM/Recipes
-237cbd7b0749b0fce019dda2fc9aecb0df381277 data\ttm\recipe\crude_silicon_from_blasting_quartz.json
+// 1.21	2025-11-22T20:40:46.0579365	TTM/Recipes
+f84b1157ecba94e0b2a0cfa8b07f992a4c9b77df data\ttm\advancement\recipes\misc\graphite_block.json
+7f8e58658794a8041b105c5ed1baec38eabd67b9 data\ttm\advancement\recipes\misc\silumin_block.json
+af144a96b44a37a18450c59761c648a36199c768 data\ttm\recipe\silumin.json
+17e80a2e77664446cedea5027f7d8461bb79eb81 data\ttm\advancement\recipes\misc\steel.json
+420d3cab1b2478c9696631d9bdbb04110e102737 data\ttm\recipe\silumin_block.json
+de6d1fcbd519a9e43425387186dd7e6f9920b145 data\ttm\recipe\aluminium.json
+394ff7d0cd0c7e5d034fc2f4ca14a087bbfa15a0 data\ttm\advancement\recipes\misc\aluminium_block.json
+ca8d5ee6c92ce287e8010c9a87d05bde7d864486 data\ttm\recipe\steel.json
+2b7f10a90830351799fd162c4bfc5c174df6af68 data\ttm\advancement\recipes\misc\steel_block.json
+64a854fea9662350abf93491df54dda01d8c5ed7 data\ttm\recipe\graphite_block.json
+344a708d994047d1a83f964878ddbf250c9e49ab data\ttm\advancement\recipes\misc\graphite.json
 ff2f7a95aa643d97fd4c083a20f741f8b959e6cc data\ttm\advancement\recipes\building_blocks\crude_silicon.json
-76c43b0db32aba4db47d58d8469c29d9c82fd6b6 data\ttm\advancement\recipes\misc\crude_silicon_from_blasting_quartz_ore.json
 a8b705887e5e1ce88690350a6c5ce3bacd7f692a data\ttm\recipe\silicon_block.json
-b5f9783344e44a6dba849748232445fd6407baff data\ttm\advancement\recipes\misc\crude_silicon_from_blasting_nether_quartz_ore.json
-2a79b0eae9f85d11883e81022d09a76a6b8a3ea3 data\ttm\advancement\recipes\misc\crude_silicon_from_blasting_quartz.json
-4426146b2fddfd9e61e7f72888f648f24e2f6390 data\ttm\recipe\crude_silicon_from_blasting_nether_quartz_ore.json
+1df027f44bed94b42fab8d83febfc7ada8e5208c data\ttm\advancement\recipes\misc\silumin.json
+6b6fe35fe771566f8f49356522cf42ab3bf65926 data\ttm\advancement\recipes\misc\aluminium.json
+3292798276a27bb4944217a7842891f328149233 data\ttm\recipe\graphite.json
+1e8f7f554818a2299d09ac8d3baf8d3587c7c94f data\ttm\recipe\aluminium_block.json
 ef0e761168f2a8ff8bbb1a2f8dca58e93a9ea04a data\ttm\recipe\crude_silicon.json
-427293e5766084e00cc92e37e2d33059abbfde3f data\ttm\recipe\crude_silicon_from_blasting_quartz_ore.json
 a5c1fe2573f5f2975b1fa8196034cb7d72004c9e data\ttm\advancement\recipes\misc\silicon_block.json
+e1eeb1586f0cc8ed4555c31b76dce06aac87d5c0 data\ttm\recipe\steel_block.json

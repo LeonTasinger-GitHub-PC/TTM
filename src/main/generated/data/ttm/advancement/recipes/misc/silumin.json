@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silumin_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ttm:silumin_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:silumin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_silumin_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:silumin"
+    ]
+  }
+}

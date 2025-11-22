@@ -1,2 +1,6 @@
-// 1.21	2025-11-21T21:24:46.0995755	TTM/Tags for minecraft:item
-6b57449363a85b1df1b3dec7aac87fdd3dea4129 data\ttm\tags\item\decayable_metal.json
+// 1.21	2025-11-22T20:40:46.0359957	TTM/Tags for minecraft:item
+cf96e7a1e34c19ddd672c27424ec457cdaa290e5 data\minecraft\tags\item\hoes.json
+3ec611ce36fad9868bb3c6659c74f478f6ac5ad4 data\minecraft\tags\item\shovels.json
+af77b0dbf677ab739ebd9cec993bdb8c27b9ae93 data\minecraft\tags\item\axes.json
+255cbc6807c4e00e6ca31c1f027a1f7bff38f97f data\minecraft\tags\item\swords.json
+e43e4056ac6cff95c05e7792bb1b9421f36ade96 data\minecraft\tags\item\pickaxes.json

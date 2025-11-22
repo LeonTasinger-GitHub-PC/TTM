@@ -1,10 +1,37 @@
 {
   "item.ttm.crude_silicon": "Crude Silicon",
   "item.ttm.cauliflower": "Cauliflower",
+  "item.ttm.bauxite": "Bauxite",
+  "item.ttm.aluminium": "Aluminium",
+  "item.ttm.silumin": "Silumin",
+  "item.ttm.graphite": "Graphite",
+  "item.ttm.graphite_rod": "Graphite Rod",
+  "item.ttm.steel": "Steel Ingot",
+
+  "item.ttm.aluminium_sword": "Aluminium Sword",
+  "item.ttm.aluminium_pickaxe": "Aluminium Pickaxe",
+  "item.ttm.aluminium_shovel": "Aluminium Shovel",
+  "item.ttm.aluminium_axe": "Aluminium Axe",
+  "item.ttm.aluminium_hoe": "Aluminium Hoe",
+
+  "item.ttm.silumin_sword": "Silumin Sword",
+  "item.ttm.silumin_pickaxe": "Silumin Pickaxe",
+  "item.ttm.silumin_shovel": "Silumin Shovel",
+  "item.ttm.silumin_axe": "Silumin Axe",
+  "item.ttm.silumin_hoe": "Silumin Hoe",
+
+  "item.ttm.steel_sword": "Steel Sword",
+  "item.ttm.steel_pickaxe": "Steel Pickaxe",
+  "item.ttm.steel_shovel": "Steel Shovel",
+  "item.ttm.steel_axe": "Steel Axe",
+  "item.ttm.steel_hoe": "Steel Hoe",
 
   "block.ttm.quartz_ore": "Quartz Ore",
   "block.ttm.silicon_block": "Silicon Block",
   "block.ttm.metal_lamp": "Metal Lamp",
+  "block.ttm.bauxite_ore": "Bauxite Ore",
+  "block.ttm.aluminium_block": "Aluminium Block",
+  "block.ttm.silumin_block": "Silumin Block",
 
   "itemgroup.ttm.ttm_items": "TTM Items",
   "itemgroup.ttm.ttm_blocks": "TTM Blocks",

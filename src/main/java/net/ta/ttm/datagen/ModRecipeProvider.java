@@ -3,10 +3,14 @@ package net.ta.ttm.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
+import net.minecraft.registry.tag.TagKey;
 import net.ta.ttm.block.ModBlocks;
 import net.ta.ttm.item.ModItems;
 
@@ -24,17 +28,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 Items.NETHER_QUARTZ_ORE, ModBlocks.QUARTZ_ORE);
 
 
-        offerBlasting(recipeExporter, SILICON_SMELTABLES, RecipeCategory.MISC, ModItems.CRUDE_SILICON, 0.25f, 400, "silicon");
+        //offerBlasting(recipeExporter, SILICON_SMELTABLES, RecipeCategory.MISC, ModItems.CRUDE_SILICON, 0.25f, 400, "silicon");
 
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.CRUDE_SILICON, RecipeCategory.MISC, ModBlocks.SILICON_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.ALUMINIUM, RecipeCategory.MISC, ModBlocks.ALUMINIUM_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.SILUMIN, RecipeCategory.MISC, ModBlocks.SILUMIN_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.GRAPHITE, RecipeCategory.MISC, ModBlocks.GRAPHITE_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.STEEL, RecipeCategory.MISC, ModBlocks.STEEL_BLOCK);
 
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_OBSIDIANITE, 9)
-//                .pattern("AAA")
-//                .pattern("AOA")
-//                .pattern("AAA")
-//                .input('A', Items.IRON_INGOT)
-//                .input('O', Items.OBSIDIAN)
-//                .criterion(hasItem(Items.OBSIDIAN), conditionsFromItem(Items.OBSIDIAN))
-//                .offerTo(recipeExporter, Identifier.of(TTM.MOD_ID, "raw_obsidianite_from_vanilla_material"));
+
     }
 }

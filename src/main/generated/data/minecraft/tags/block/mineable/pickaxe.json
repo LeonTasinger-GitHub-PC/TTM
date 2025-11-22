@@ -2,6 +2,11 @@
   "values": [
     "ttm:quartz_ore",
     "ttm:silicon_block",
-    "ttm:metal_lamp"
+    "ttm:metal_lamp",
+    "ttm:bauxite_ore",
+    "ttm:aluminium_block",
+    "ttm:silumin_block",
+    "ttm:graphite_block",
+    "ttm:steel_block"
   ]
 }

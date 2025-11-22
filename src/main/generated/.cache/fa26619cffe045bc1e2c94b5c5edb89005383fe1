@@ -1,4 +1,7 @@
-// 1.21	2025-11-21T21:24:46.1135384	TTM/Tags for minecraft:block
-d31532335205409bc860bdb43d49f5e6b50091da data\minecraft\tags\block\needs_iron_tool.json
-5e58d0ee9938f86669e1ff6f82089c73f341b343 data\minecraft\tags\block\mineable\pickaxe.json
-d93eba8836855bc2d0bc3ad82549f39502feec09 data\minecraft\tags\block\needs_stone_tool.json
+// 1.21	2025-11-22T20:40:46.0539482	TTM/Tags for minecraft:block
+06d906c92ce67783071a5cfd3f151cdb82704795 data\ttm\tags\block\needs_silumin_tool.json
+f9f31d3cdc6bfcc01a441066e3c915bc07da70a3 data\minecraft\tags\block\needs_iron_tool.json
+e72e2c31f36966d6ebb619a44135e388fd0d751e data\minecraft\tags\block\needs_diamond_tool.json
+620042bdac66429067e9da58c088fe73b93aaa67 data\ttm\tags\block\needs_aluminium_tool.json
+1964020c4d689017046145705805be537a8f6bd6 data\ttm\tags\block\needs_steel_tool.json
+327422edfc46c21423e5a9acaa34e9b9b1b9c417 data\minecraft\tags\block\mineable\pickaxe.json
